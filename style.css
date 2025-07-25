@@ -126,6 +126,12 @@ body {
 }
 .trusted-badge{
   position: absolute;
+  top: -100px;
+  left: 350px;
+ 
+}
+.trusted-badge img{
+  box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -311,8 +317,11 @@ body {
     padding-left: 10px;
     flex-direction: column;
   }
+  .plants-lover-section{
+    margin-top: 40px;
+  }
 
-  .latest-deal-image-area{
+  .latest-deal-image-area, .plants-lover-section{
     flex-direction: column;
     gap: 20px;
   }
@@ -322,5 +331,13 @@ body {
   .right-banner{
     height: 150px;
   }
+  .plants-right, section{
+    margin: 0 20px;
+  }
+  .plants-left img{
+    width: 100%;
+  }
+
+
   
 }
