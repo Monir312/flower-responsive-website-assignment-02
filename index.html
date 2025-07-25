@@ -6,15 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Architect website practice</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
   <header >
-    <nav class="navbar">
-      <ul class="nav-links">
+    <nav class="navbar flex">
+      <div class="logo">
+        <img src="assets/logo.png" alt="">
+      </div>
+      <ul class="nav-links flex">
+        <li class="nav-item none">Home</li>
+        <li class="nav-item none">Shop</li>
+        <li class="nav-item none">About Us</li>
+        <li class="nav-item">
+          <div class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span> Cart ($56)</span>
+          </div>
+        </li>
       </ul>
     </nav>
-    <div class="banner">
+    <div class="container">
+      <div class="banner flex">
+        <div class="banner-content">
+          <h1 class="banner-title">ALWAYS <span class="text-yellow">FRESH</span>
+          <br>
+          <span class="text-yellow">FLOWERS</span>
+        </h1>
+          <p class="banner-description">
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+          </p>
+        </div>
+        <img class="banner-image" src="assets/hero-flower.png" alt="">
+      </div>
     </div>
   </header>
   <main>
