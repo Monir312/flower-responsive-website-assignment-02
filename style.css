@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* github live page: https://monir312.github.io/flower-responsive-website-assignment-02/ */
+
+/* github repository: https://github.com/Monir312/flower-responsive-website-assignment-02  */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -101,6 +106,37 @@ body {
   margin-bottom: 25px;
 }
 
+/* join section style  */
+.join-section{
+  background-image: url('assets/news-letter-bg.png');
+  background-position: center center;
+  height: 650px;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+}
+
+.join-section-item{
+  margin: 0 auto;
+}
+
+.join-section h3{
+  color: #fff;
+  font-size: 3rem;
+
+}
+.join-section input{
+  padding: 15px 20px;
+  width: 650px;
+  margin-top: 23px;
+  border: none;
+  outline: none;
+}
+
+.join-section button{
+  padding: 15px 50px;
+  margin: -10px;
+}
 
 
 
@@ -145,4 +181,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
+  .join-section-item input{
+    width: 70%;
+  }
+  .join-section h3{
+    font-size: 1.4rem;
+  }
+  .join-section button{
+    padding: 15px 12px;
+  }
+  
 }
