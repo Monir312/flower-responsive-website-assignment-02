@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* github live page: https://monir312.github.io/flower-responsive-website-assignment-02/ */
-
-/* github repository: https://github.com/Monir312/flower-responsive-website-assignment-02  */
-
 
 * {
   margin: 0;
@@ -128,15 +122,7 @@ body {
   position: absolute;
   top: -100px;
   left: 350px;
- 
 }
-.trusted-badge img{
-  box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-
-
-
 
 /* latest deal section  */
 .least-deal-section{
@@ -252,38 +238,6 @@ body {
 .footer-area a{
   color: rgba(107, 114, 128, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 576px) {
   .none {
