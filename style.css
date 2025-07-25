@@ -24,6 +24,17 @@ body {
   color: #E95A08;
 }
 
+.description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+}
+
+.btn-primary{
+  padding: 16px 0;
+  color: white;
+  background-color: #E95A08;
+  border: none;
+}
 
 
 /* nav style  */
@@ -55,10 +66,44 @@ body {
   color: #000;
 }
 
-.banner-description {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 1.4rem;
+
+
+/* plants section style  */
+.plants-section{
+  margin-top: 120px;
+  text-align: center;
 }
+.plants-title h3{
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+.plants-card-area{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 48px;
+}
+
+.plants-card-area button{
+  width: 100%;
+}
+
+.plants-single-card img{
+  margin-bottom: 25px;
+}
+.plants-single-card h4{
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.plants-single-card p{
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+
+
+
 
 
 
@@ -95,5 +140,9 @@ body {
   .banner {
     flex-direction: column-reverse;
     gap: 28px;
+  }
+  .plants-card-area{
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 }
