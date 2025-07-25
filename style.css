@@ -18,6 +18,7 @@ body {
 /* shared style  */
 .flex {
   display: flex;
+  align-items: flex-start;
 }
 
 .container {
@@ -138,6 +139,33 @@ body {
   margin: -10px;
 }
 
+/* footer section style  */
+
+.footer-area{
+  justify-content: space-between;
+  padding: 50px 130px;
+}
+
+.nav-item a{
+  text-decoration: none;
+}
+.forth-social-icon{
+  align-items: center;
+}
+.forth-social-icon a{
+  margin-right: 20px;
+}
+
+.second-section li, .third-section li {
+  margin-bottom: 25px;
+
+}
+.footer-area a{
+  color: rgba(107, 114, 128, 1);
+}
+
+
+
 
 
 
@@ -179,6 +207,11 @@ body {
   }
   .plants-card-area{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .plants-section img{
+    width: 100%;
+  }
+  .banner img{
     width: 100%;
   }
   .join-section-item input{
@@ -189,6 +222,11 @@ body {
   }
   .join-section button{
     padding: 15px 12px;
+  }
+
+  .footer-area{
+    padding-left: 10px;
+    flex-direction: column;
   }
   
 }
